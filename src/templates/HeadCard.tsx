@@ -1,10 +1,9 @@
 import Link from 'next/link';
-
+import { AppConfig } from '@/utils/AppConfig';
 import { Background } from '../background/Background';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
-import { AppConfig } from '@/utils/AppConfig';
 
 const HeadCard = () => (
     <Background color="">

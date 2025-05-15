@@ -1,6 +1,6 @@
+import {AppConfig} from "@/utils/AppConfig";
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
-import {AppConfig} from "@/utils/AppConfig";
 
 const bullet = () => (
     <svg className="w-3.5 h-3.5 mx-2 shrink-0" aria-hidden="true"

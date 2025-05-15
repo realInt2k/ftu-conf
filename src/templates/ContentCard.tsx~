@@ -115,37 +115,37 @@ const ContentCard = () => (
                   <li className="flex items-center">
                       {bullet()}
                       <p className={'text-left'}>
-                          Toán học và ứng dụng trong kinh tế
+                          Công nghệ và Dữ liệu lớn
                       </p>
                   </li>
                   <li className="flex items-center">
                       {bullet()}
                       <p className={'text-left'}>
-                          Cơ sở toán học cho tin học
+                          Mô hình hóa & phân tích dữ liệu
                       </p>
                   </li>
                   <li className="flex items-center">
                       {bullet()}
                       <p className={'text-left'}>
-                          Các thuật toán số tiên tiến
+                          Xử lý hình ảnh & ngôn ngữ tự nhiên
                       </p>
                   </li>
                   <li className="flex items-center">
                       {bullet()}
                       <p className={'text-left'}>
-                          Toán tài chính và bảo hiểm
+                          Mạng nơ-ron nhân tạo
                       </p>
                   </li>
                   <li className="flex items-center">
                       {bullet()}
                       <p className={'text-left'}>
-                          Mô phỏng và tính toán khoa học
+                          Mô hình dự đoán, Máy học
                       </p>
                   </li>
                   <li className="flex items-center">
                       {bullet()}
                       <p className={'text-left leading-[normal]'}>
-                          Phương pháp thống kê trong khoa học kỹ thuật và kinh tế
+                          Quản trị thông tin
                       </p>
                   </li>
               </ul>

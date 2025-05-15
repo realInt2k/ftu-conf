@@ -1,5 +1,5 @@
-import { Section } from '../layout/Section';
 import {AppConfig} from "@/utils/AppConfig";
+import { Section } from '../layout/Section';
 
 const MapEmbed = () => {
     return (

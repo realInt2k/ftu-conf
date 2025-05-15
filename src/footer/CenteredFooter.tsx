@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
 
 import { FooterCopyright } from './FooterCopyright';
-// import { FooterIconList } from './FooterIconList';
 
 type ICenteredFooterProps = {
   logo: ReactNode;
@@ -22,9 +21,6 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     <div className={'flex justify-center'}>
         <img className={`mt-5 max-h-[200px]`} src={"/assets/images/ftds-selfie.jpg"} alt={'ftds selfie'}/>
     </div>
-    {/*<div className="mt-8 flex justify-center">*/}
-    {/*  <FooterIconList>{props.iconList}</FooterIconList>*/}
-    {/*</div>*/}
 
     <div className="mt-8 pb-2 text-sm">
       <FooterCopyright  />

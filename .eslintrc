@@ -6,13 +6,16 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "endOfLine": "auto"
-      }
-    ]
+    "rules": {
+      "padded-blocks": "off"
+    }
+//    "prettier/prettier": [
+//      "error",
+//      {
+//        "singleQuote": true,
+//        "endOfLine": "auto"
+//      }
+//    ]
   },
   "overrides": [
     // Configuration for TypeScript files

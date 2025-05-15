@@ -1,0 +1,161 @@
+import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
+import { Section } from '../layout/Section';
+import {AppConfig} from "@/utils/AppConfig";
+
+const bullet = () => (
+    <svg className="w-3.5 h-3.5 mx-2 shrink-0" aria-hidden="true"
+         xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+      <path
+          d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 "/>
+    </svg>
+)
+const ContentCard = () => (
+  <Section
+    yPadding={'py-12 mt-12 rounded-md'}
+    bgColor={`${AppConfig.bg_light}`}
+    titleColor={AppConfig.text_primary_color_dark}
+    title="Các chủ đề chính"
+    descriptionColor={AppConfig.text_secondary_color_dark}
+    description="Trong Toán ứng dụng, Khoa học máy tính và Khoa học Dữ liệu."
+  >
+    <VerticalFeatureRow
+      title="Khoa học máy tính"
+      description={
+        (
+            <div className={'md:pl-4'}>
+              <ul className={`max-w-md space-y-1 ${AppConfig.text_secondary_color_dark}`}>
+                <li className="flex items-center">
+                {bullet()}
+                  Trí tuệ nhân tạo (AI)
+                </li>
+                <li className="flex items-center">
+                    {bullet()}
+                    Xử lý ảnh và thực tại ảo
+                </li>
+                <li className="flex items-center">
+                    {bullet()}
+                    <p className={'text-left leading-[normal]'}>
+                        Phần mềm và hệ thống tính toán phân tán
+                    </p>
+                </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      Điện toán đám mây
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      An toàn thông tin, An ninh mạng
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      Thuật toán tối ưu
+                  </li>
+              </ul>
+
+            </div>
+        )
+      }
+      image="/assets/images/comp-sci.svg"
+      imageAlt="First feature alt text"
+    />
+    <VerticalFeatureRow
+      title="Toán ứng dụng"
+      description={(
+          <div className={'md:pl-4'}>
+              <ul className={`max-w-md space-y-1 ${AppConfig.text_secondary_color_dark}`}>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                        Toán học và ứng dụng trong kinh tế
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                        Cơ sở toán học cho tin học
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                        Các thuật toán số tiên tiến
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                        Toán tài chính và bảo hiểm
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                        Mô phỏng và tính toán khoa học
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left leading-[normal]'}>
+                          Phương pháp thống kê trong khoa học kỹ thuật và kinh tế
+                      </p>
+                  </li>
+              </ul>
+
+          </div>
+      )}
+      image="/assets/images/imu-logo.svg"
+      imageAlt="applied math"
+      reverse
+    />
+    <VerticalFeatureRow
+      title="Khoa học dữ liệu"
+      description={(
+          <div className={'md:pl-4'}>
+              <ul className={`max-w-md space-y-1 ${AppConfig.text_secondary_color_dark}`}>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                          Công nghệ và Dữ liệu lớn
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                          Mô hình hóa & phân tích dữ liệu
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                          Xử lý hình ảnh & ngôn ngữ tự nhiên
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                          Mạng nơ-ron nhân tạo
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left'}>
+                          Mô hình dự đoán, Máy học
+                      </p>
+                  </li>
+                  <li className="flex items-center">
+                      {bullet()}
+                      <p className={'text-left leading-[normal]'}>
+                          Quản trị thông tin
+                      </p>
+                  </li>
+              </ul>
+
+          </div>
+      )}
+      image="/assets/images/data-science.svg"
+      imageAlt="data-science"
+    />
+  </Section>
+);
+
+export { ContentCard };

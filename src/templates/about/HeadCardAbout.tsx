@@ -1,22 +1,22 @@
 import {HeadCard} from "@/templates/HeadCard";
+import UseTranslate from "@/hooks/Usetranslate";
 
-export const HeadCardAbout = () => (
-    <HeadCard
-        bigTitle={(
-            <>
-                <p>
-                    Ban tổ chức
-                    <br/>
-                    Ban chương trình
-                    <br/>
-                    Diễn giả
-                </p>
-            </>
-        )}
-        smallTitle={(
-            <>
-                Hội thảo quốc gia Trường Đại học Ngoại Thương
-            </>
-        )}
-    />
-);
+export const HeadCardAbout = () => {
+    const t = UseTranslate();
+    return (
+        <HeadCard
+            bigTitle={(
+                <>
+                    <p>
+                        {t('About.HeadCard.Title')}
+                    </p>
+                </>
+            )}
+            smallTitle={(
+                <>
+                    {t('About.HeadCard.SubTitle')}
+                </>
+            )}
+        />
+    );
+}

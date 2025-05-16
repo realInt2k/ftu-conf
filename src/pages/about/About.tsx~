@@ -5,7 +5,6 @@ import ProgrammeBoardCard from "@/templates/about/ProgrammeBoardCard";
 import SpeakersCard from "@/templates/about/SpeakersCard";
 import { AppConfig } from "@/utils/AppConfig";
 import { Meta } from "@/layout/Meta";
-
 const About = () => {
   return (
     <Base>

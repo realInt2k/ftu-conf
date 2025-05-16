@@ -1,5 +1,6 @@
 import {AppConfig} from "@/utils/AppConfig";
 import { Section } from '@/layout/Section';
+import UseTranslate from "@/hooks/Usetranslate";
 
 const MapEmbed = () => {
     return (
@@ -14,27 +15,30 @@ const MapEmbed = () => {
       </div>
   );
 };
-const Location = () => (
-  <Section
-    yPadding={'mt-10 py-3'}
-    bgColor={'bg-gray-100 rounded-md'}
-    titleColor={`${AppConfig.text_primary_color_dark}`}
-    title={'Địa điểm dự kiến'}
-  >
-    <div className={'w-full px-10 pt-5 md:flex'}>
-      <div className={`w-full md:w-1/2`}>
-        {MapEmbed()}
-      </div>
-        <div className={`mt-5 w-full md:ml-10 md:mt-0 md:w-1/2`}>
-            <p className={`mt-1 text-xl ${AppConfig.text_secondary_color_dark}`}>
-                Khoa Công nghệ và Khoa học Dữ liệu - Trường Đại học Ngoại thương
-            </p>
-            <p className={`mt-1 text-xl ${AppConfig.text_secondary_color_dark}`}>
-                91 Chùa Láng, Phường Láng Thượng Quận Đống Đa, Hà Nội.
-            </p>
-        </div>
-    </div>
-  </Section>
-);
+const Location = () => {
+    const t = UseTranslate();
+    return (
+        <Section
+            yPadding={'mt-10 py-3'}
+            bgColor={'bg-gray-100 rounded-md'}
+            titleColor={`${AppConfig.text_primary_color_dark}`}
+            title={t('DescriptionHome.Location.Title')}
+        >
+            <div className={'w-full px-10 pt-5 md:flex'}>
+                <div className={`w-full md:w-1/2`}>
+                    {MapEmbed()}
+                </div>
+                <div className={`mt-5 w-full md:ml-10 md:mt-0 md:w-1/2`}>
+                    <p className={`mt-1 text-xl ${AppConfig.text_secondary_color_dark}`}>
+                        {t('DescriptionHome.Location.Detail.1')}
+                    </p>
+                    <p className={`mt-1 text-xl ${AppConfig.text_secondary_color_dark}`}>
+                        {t('DescriptionHome.Location.Detail.2')}
+                    </p>
+                </div>
+            </div>
+        </Section>
+    );
+}
 
 export { Location };

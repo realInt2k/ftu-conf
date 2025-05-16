@@ -1,9 +1,7 @@
 import About from "@/pages/about/About";
 
 const Index = () => (
-    <>
-        <About />
-    </>
+    <About />
 );
 
 export default Index;

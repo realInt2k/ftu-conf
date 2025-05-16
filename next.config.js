@@ -4,9 +4,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 module.exports = withBundleAnalyzer({
-  eslint: {
-    dirs: ['.'],
-  },
+  // eslint: {
+  //   dirs: ['.'],
+  // },
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',
@@ -14,4 +14,9 @@ module.exports = withBundleAnalyzer({
   // So, the source code is "basePath-ready".
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
+  i18n: {
+    locales: ['en', 'vi'],
+    defaultLocale: 'vi',
+    localeDetection: false,
+  },
 });

@@ -39,7 +39,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/public/*": ["./public/*"],
-      "@/locales/*": ["./locales/*"],
+      "@/loca"
     },
   },
   "exclude": ["./out/**/*", "./node_modules/**/*"],

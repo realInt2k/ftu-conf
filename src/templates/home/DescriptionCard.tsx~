@@ -27,11 +27,11 @@ const DescriptionCard = () =>{
             >
                 <div className={`md:flex md:justify-center`}>
                     <ul className="timeline md:timeline-horizontal timeline-vertical">
-                        <TimelineItem check={true} start={true} date={'20/06/2025'} description={t('DescriptionHome.TimeLine.1')}/>
-                        <TimelineItem middle={true} date={'20/07/2025'} description={t('DescriptionHome.TimeLine.2')}/>
-                        <TimelineItem middle={true} date={'30/07/2025'} description={t('DescriptionHome.TimeLine.3')}/>
-                        <TimelineItem middle={true} date={'12/08/2025'} description={t('DescriptionHome.TimeLine.4')}/>
-                        <TimelineItem end={true} date={'16/08/2025'} description={t('DescriptionHome.TimeLine.5')}/>
+                        <TimelineItem check={true} start={true} date={'20/06/2025'} description={'Toàn văn báo cáo'}/>
+                        <TimelineItem middle={true} date={'20/07/2025'} description={'Chấp nhận đăng kỷ yếu'}/>
+                        <TimelineItem middle={true} date={'30/07/2025'} description={'Xuất bản kỷ yếu'}/>
+                        <TimelineItem middle={true} date={'12/08/2025'} description={'Đăng ký tham dự'}/>
+                        <TimelineItem end={true} date={'16/08/2025'} description={'Tổ chức Hội thảo'}/>
                     </ul>
                 </div>
             </Section>

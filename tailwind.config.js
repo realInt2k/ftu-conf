@@ -1,4 +1,5 @@
 /* eslint-disable */
+console.log('🧩 Loading Tailwind config with DaisyUI');
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {

@@ -1,5 +1,4 @@
-const daisyui = require('daisyui')
-
+/* eslint-disable */
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -52,6 +51,6 @@ module.exports = {
     },
   },
   plugins: [
-    daisyui,
+    require("daisyui"),
   ],
 };

@@ -2,9 +2,7 @@
 console.log('🧩 Loading Tailwind config with DaisyUI');
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
-  safelist: [{
-    pattern: /^timeline/,
-  },],
+  safelist: [{ pattern: /^timeline(-|$)/ },],
   theme: {
     fontSize: {
       xs: '0.75rem',

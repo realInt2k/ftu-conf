@@ -1,9 +1,6 @@
 /* eslint-disable */
-const fs = require('fs');
-console.log('🧩 Loading Tailwind config with DaisyUI');
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
-  safelist: [{ pattern: /.*/ },],
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -54,15 +51,5 @@ module.exports = {
     },
   },
   plugins: [
-    require("daisyui"),
-    process.env.VERCEL &&
-    (() => {
-      return {
-        postcssPlugin: 'postcss-dump-output',
-        Once(root) {
-          fs.writeFileSync('./public/vercel-output.css', root.toString());
-        },
-      };
-    })(),
   ],
 };

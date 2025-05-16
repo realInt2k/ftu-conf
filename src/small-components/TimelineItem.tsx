@@ -11,7 +11,7 @@ type ITimelineItemProps = {
 }
 const TimelineItem = (props: ITimelineItemProps) => (
     <li>
-        {props.middle || props.end ? <hr /> : ''}
+        {props.middle || props.end ? <hr className={`${AppConfig.bg_dark}`} /> : ''}
         <div className={`timeline-start ${AppConfig.text_secondary_color_dark}`}>{props.date}</div>
         <div className="timeline-middle">
             {props.check ? (
@@ -19,7 +19,7 @@ const TimelineItem = (props: ITimelineItemProps) => (
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className={`h-5 w-5 ${AppConfig.text_secondary_color_dark}`}
+                    className={`size-5 ${AppConfig.text_secondary_color_dark}`}
                 >
                     <path
                         fillRule="evenodd"
@@ -32,7 +32,7 @@ const TimelineItem = (props: ITimelineItemProps) => (
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className={`h-5 w-5 ${AppConfig.text_secondary_color_dark}`}
+                    className={`size-5 ${AppConfig.text_secondary_color_dark}`}
                 >
                     <path
                         fillRule="evenodd"
@@ -43,10 +43,10 @@ const TimelineItem = (props: ITimelineItemProps) => (
 
                 )}
         </div>
-        {props.description && <div className={`timeline-end timeline-box ${AppConfig.bg_dark} ${AppConfig.text_primary_color}`}>
+        {props.description && <div className={`timeline-end timeline-box rounded-md ${AppConfig.bg_dark} ${AppConfig.text_primary_color}`}>
             {props.description}
         </div>}
-        {props.middle || props.start ? <hr /> : ''}
+        {props.middle || props.start ? <hr className={`${AppConfig.bg_dark}`} /> : ''}
     </li>
 );
 

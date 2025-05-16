@@ -1,0 +1,23 @@
+
+const HeadCardHome = () => (
+    <HeadCardHome
+        bigTitle={(
+            <>
+                <p>
+                    Nghiên cứu và ứng dụng Toán học
+                    <br/>
+                    Khoa học máy tính và phân tích dữ liệu
+                    <br/>
+                </p>
+                <span className="text-blue-300">Trong kinh tế - kinh doanh</span>
+            </>
+        )}
+        smallTitle={(
+            <>
+                Khoa Công nghệ và Khoa học Dữ liệu Trường Đại học Ngoại thương
+            </>
+        )}
+    />
+);
+
+export { HeadCardHome };

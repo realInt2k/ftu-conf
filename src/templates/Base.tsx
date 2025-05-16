@@ -7,13 +7,15 @@ import { DescriptionCard } from './DescriptionCard';
 import { ContentCard } from './ContentCard';
 
 const Base = () => (
-  <div className="text-gray-600 antialiased bg-ftu-super">
-    <Meta title={AppConfig.title} description={AppConfig.description} />
-    <HeadCard />
-    <DescriptionCard />
-    <ContentCard />
-    <Location />
-    <Footer />
+  <div className={"bg-gray-200"} style={{backgroundColor: '#222222'}}>
+      <div className="text-gray-600 antialiased bg-ftu-super bg-no-repeat">
+          <Meta title={AppConfig.title} description={AppConfig.description} />
+          <HeadCard />
+          <DescriptionCard />
+          <ContentCard />
+          <Location />
+          <Footer />
+      </div>
   </div>
 );
 

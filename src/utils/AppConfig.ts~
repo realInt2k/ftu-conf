@@ -9,5 +9,4 @@ export const AppConfig = {
   text_secondary_color_dark: 'text-indigo-900',
   bg_light: 'bg-gray-200',
   bg_dark: 'bg-indigo-900',
-  background_color: '#222',
 };

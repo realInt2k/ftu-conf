@@ -15,7 +15,7 @@ const HeadCard = () => (
             </Section>
             <Section
                      bgColor={'bg-tech-blurred bg-cover rounded-md px-0'}
-                     blurred={'py-20 px-5 md:px-10 my-10 backdrop-blur-md'}
+                     blurred={'py-20 px-5 md:px-10 my-10 backdrop-blur-md rounded-md'}
             >
                 <header className="text-left">
                     <h1 className={`whitespace-pre-line text-5xl font-bold leading-hero ${AppConfig.text_primary_color}`}>

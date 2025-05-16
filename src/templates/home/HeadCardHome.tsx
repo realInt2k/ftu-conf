@@ -7,6 +7,7 @@ const HeadCardHome = () => {
         bigTitle={(
             <>
                 <p>
+
                     {t('HeadCardHome.Title.1')}
                     <br/>
                     {t('HeadCardHome.Title.2')}

@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <Background color="bg-gray-900 rounded-t-md pt-10 mt-12">
             <Section>
-                <div className={`md:flex ${AppConfig.text_primary_color}`} id={'contact-us'}>
+                <div className={`md:flex ${AppConfig.text_primary_color} px-5 md:px-0`} id={'contact-us'}>
                     <div className={`flex w-full items-center justify-center text-xl md:w-1/2 ${AppConfig.text_secondary_color}`}>
                         <div className={'w-full pl-2 md:size-1/2 md:pl-0'}>
                             <p className={'mb-2 text-2xl font-medium'}>

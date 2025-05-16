@@ -18,6 +18,7 @@ const ContentCard = () => {
   const t = UseTranslate();
   return (
     <Section
+      xPadding={'px-5'}
       yPadding={"py-12 mt-12 rounded-md"}
       bgColor={`${AppConfig.bg_light}`}
       titleColor={AppConfig.text_primary_color_dark}
@@ -34,27 +35,39 @@ const ContentCard = () => {
             >
               <li className="flex items-center">
                 {bullet()}
-                {t("DescriptionHome.ContentCard.Subject.1.Description.1")}
+                <p className={'text-left'}>
+                  {t("DescriptionHome.ContentCard.Subject.1.Description.1")}
+                </p>
               </li>
               <li className="flex items-center">
                 {bullet()}
-                {t("DescriptionHome.ContentCard.Subject.1.Description.2")}
+                <p className={'text-left'}>
+                  {t("DescriptionHome.ContentCard.Subject.1.Description.2")}
+                </p>
               </li>
               <li className="flex items-center">
                 {bullet()}
-                {t("DescriptionHome.ContentCard.Subject.1.Description.3")}
+                <p className={'text-left'}>
+                  {t("DescriptionHome.ContentCard.Subject.1.Description.3")}
+                </p>
               </li>
               <li className="flex items-center">
                 {bullet()}
-                {t("DescriptionHome.ContentCard.Subject.1.Description.4")}
+                <p className={'text-left'}>
+                  {t("DescriptionHome.ContentCard.Subject.1.Description.4")}
+                </p>
               </li>
               <li className="flex items-center">
                 {bullet()}
-                {t("DescriptionHome.ContentCard.Subject.1.Description.5")}
+                <p className={'text-left'}>
+                  {t("DescriptionHome.ContentCard.Subject.1.Description.5")}
+                </p>
               </li>
               <li className="flex items-center">
                 {bullet()}
-                {t("DescriptionHome.ContentCard.Subject.1.Description.6")}
+                <p className={'text-left'}>
+                  {t("DescriptionHome.ContentCard.Subject.1.Description.6")}
+                </p>
               </li>
             </ul>
           </div>
@@ -101,7 +114,7 @@ const ContentCard = () => {
               </li>
               <li className="flex items-center">
                 {bullet()}
-                <p className={"text-left leading-[normal]"}>
+                <p className={"text-left "}>
                   {t("DescriptionHome.ContentCard.Subject.2.Description.6")}
                 </p>
               </li>
@@ -133,7 +146,7 @@ const ContentCard = () => {
               </li>
               <li className="flex items-center">
                 {bullet()}
-                <p className={"text-left  leading-[normal]"}>
+                <p className={"text-left  "}>
                   {t("DescriptionHome.ContentCard.Subject.3.Description.3")}
                 </p>
               </li>
@@ -151,7 +164,7 @@ const ContentCard = () => {
               </li>
               <li className="flex items-center">
                 {bullet()}
-                <p className={"text-left leading-[normal]"}>
+                <p className={"text-left "}>
                   {t("DescriptionHome.ContentCard.Subject.3.Description.6")}
                 </p>
               </li>

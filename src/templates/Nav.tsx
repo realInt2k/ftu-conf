@@ -25,7 +25,9 @@ const Nav = () => {
                             </ul>
                         </li>
                         <li><Link href={'/#contact-us'}>{t('Nav.Contact')}</Link></li>
-
+                        <li>
+                            <LanguageSwitcher/>
+                        </li>
                     </ul>
                 </div>
                 <div className="flex flex-wrap items-center justify-between">

@@ -43,7 +43,7 @@ const TimelineItem = (props: ITimelineItemProps) => (
 
                 )}
         </div>
-        {props.description && <div className={`timeline-end timeline-box rounded-md ${AppConfig.bg_dark} ${AppConfig.text_primary_color}`}>
+        {props.description && <div className={`timeline-box timeline-end rounded-md ${AppConfig.bg_dark} ${AppConfig.text_primary_color}`}>
             {props.description}
         </div>}
         {props.middle || props.start ? <hr className={`${AppConfig.bg_dark}`} /> : ''}

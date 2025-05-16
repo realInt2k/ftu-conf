@@ -1,21 +1,20 @@
-import { Meta } from '../layout/Meta';
-import { AppConfig } from '../utils/AppConfig';
-import { Location } from './Location';
-import { Footer } from './Footer';
-import { HeadCard } from './HeadCard';
-import { DescriptionCard } from './DescriptionCard';
-import { ContentCard } from './ContentCard';
+import { Nav } from "@/templates/Nav";
+import { ReactNode } from "react";
+import {Footer} from "@/templates/Footer";
 
-const Base = () => (
-  <div className={"bg-gray-200"} style={{backgroundColor: '#222222'}}>
-      <div className="text-gray-600 antialiased bg-ftu-super bg-no-repeat">
-          <Meta title={AppConfig.title} description={AppConfig.description} />
-          <HeadCard />
-          <DescriptionCard />
-          <ContentCard />
-          <Location />
-          <Footer />
-      </div>
+type IBaseProps = {
+  children?: ReactNode;
+};
+const Base = (props: IBaseProps) => (
+  <div
+    className={"relative z-[0] bg-gray-200"}
+    style={{ backgroundColor: "#222222" }}
+  >
+    <Nav />
+    <div className="bg-ftu-super bg-no-repeat text-gray-600 antialiased">
+      {props.children}
+      <Footer />
+    </div>
   </div>
 );
 

@@ -3,7 +3,7 @@ import { AppConfig } from '@/utils/AppConfig';
 import { TimelineItem } from "@/small-components/TimelineItem";
 
 const DescriptionCard = () => (
-    <>
+    <div id={'event-description'}>
       <Section
           yPadding={'pt-12 rounded-t-md'}
           titleColor={AppConfig.text_primary_color_dark}
@@ -12,7 +12,7 @@ const DescriptionCard = () => (
           description=""
           bgColor={`${AppConfig.bg_light}`}
       >
-          <div className={`px-10 mt-4 text-xl text-justify ${AppConfig.text_secondary_color_dark}`}>
+          <div className={`mt-4 px-10 text-justify text-xl ${AppConfig.text_secondary_color_dark}`}>
               Hội thảo Quốc gia lần thứ nhất về Toán ứng dụng, Khoa học Máy tính và
               Phân tích Dữ liệu trong Kinh tế - Kinh doanh do Khoa Công nghệ và Khoa học Dữ liệu, Trường Đại học Ngoại thương tổ chức,
               dự kiến sẽ diễn ra tại Hà Nội vào các ngày 6-7 tháng 8 năm 2025.
@@ -28,7 +28,7 @@ const DescriptionCard = () => (
           title="Các mốc thời gian"
           bgColor={`${AppConfig.bg_light}`}
       >
-          <div className={`md:justify-center md:flex`}>
+          <div className={`md:flex md:justify-center`}>
               <ul className="timeline md:timeline-horizontal timeline-vertical">
                   <TimelineItem check={true} start={true} date={'20/06/2025'} description={'Toàn văn báo cáo'}/>
                   <TimelineItem middle={true} date={'20/07/2025'} description={'Chấp nhận đăng kỷ yếu'}/>
@@ -38,7 +38,7 @@ const DescriptionCard = () => (
               </ul>
           </div>
       </Section>
-    </>
+    </div>
 );
 
 export { DescriptionCard };

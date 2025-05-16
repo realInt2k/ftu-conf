@@ -44,12 +44,13 @@ module.exports = {
       },
       backgroundImage: {
         'ftu-super': "url('/assets/images/bg-ftds-2.png')",
-        'tech-blurred': "url('/assets/images/tech-blurred.jpg')",
+        'tech-blurred': "url('/assets/images/tech-blurred.png')",
         'comp-sci':"url('/assets/images/comp-sci.svg')",
         'ftds-selfie': "url('/assets/images/ftds-selfie.jpg')",
       },
     },
   },
   plugins: [
+    require('daisyui')
   ],
 };

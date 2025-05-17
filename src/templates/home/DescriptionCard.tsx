@@ -16,7 +16,7 @@ const DescriptionCard = () =>{
                 description=""
                 bgColor={`${AppConfig.bg_light}`}
             >
-                <div className={`mt-4 px-5 text-justify text-xl ${AppConfig.text_secondary_color_dark}`}>
+                <div className={`mt-4 px-5 text-justify text-xl md:px-10 ${AppConfig.text_secondary_color_dark}`}>
                     {t('DescriptionHome.AboutConference')}
                 </div>
             </Section>

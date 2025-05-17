@@ -42,7 +42,7 @@
   "DescriptionHome.ContentCard.Subject.3.Description.5": "Predictive Modeling, Machine Learning",
   "DescriptionHome.ContentCard.Subject.3.Description.6": "Information Management Systems",
   "DescriptionHome.Location.Title": "Expected Location",
-  "DescriptionHome.Location.Detail.1": "Faculty of Technology and Data Science - Foreign Trade Universit",
+  "DescriptionHome.Location.Detail.1": "Faculty of Technology and Data Science - Foreign Trade University",
   "DescriptionHome.Location.Detail.2": "91 Chua Lang Street, Dong Da District, Ha Noi City.",
   "DescriptionHome.Footer.Contact": "Connect with us",
   "About.HeadCard.Title": "Additional detail about the conference",
@@ -50,5 +50,7 @@
   "About.OrganizingCommittee.Title": "Organizing Committee",
   "About.Speakers.Title": "Speakers",
   "About.ProgrammeBoard.Title": "Programme Board",
-  "Lang.Switch": "Đổi sang"
+  "Lang.Switch": "Đổi sang",
+  "Conference.Date": "Conference date",
+  "Conference.Date.Detail": "August 2025"
 }

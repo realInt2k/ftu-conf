@@ -25,7 +25,7 @@ const Location = () => {
             titleColor={`${AppConfig.text_primary_color_dark}`}
             title={t('DescriptionHome.Location.Title')}
         >
-            <div className={'w-full px-5 pt-5 md:flex'}>
+            <div className={'w-full p-5 md:flex'}>
                 <div className={`w-full md:w-1/2`}>
                     {MapEmbed()}
                 </div>

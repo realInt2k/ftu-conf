@@ -1,7 +1,7 @@
 const FooterCopyright = () => (
   <div className="footer-copyright">
     FTDS - FTU {new Date().getFullYear()} © {' '}
-    <a href="https://creativedesignsguru.com">Template author</a>.
+    <p>Int2k</p>
     {/*
      * PLEASE READ THIS SECTION
      * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.

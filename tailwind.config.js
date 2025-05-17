@@ -47,6 +47,7 @@ module.exports = {
         'tech-blurred': "url('/assets/images/tech-blurred.png')",
         'comp-sci':"url('/assets/images/comp-sci.svg')",
         'ftds-selfie': "url('/assets/images/ftds-selfie.jpg')",
+        'footer-bg-trimmed': "url('/assets/images/footer-bg-trimmed.png')",
       },
     },
   },

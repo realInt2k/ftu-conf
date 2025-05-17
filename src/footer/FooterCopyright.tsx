@@ -1,13 +1,6 @@
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    FTDS - FTU {new Date().getFullYear()} © {' '}
-    <p>Int2k</p>
-    {/*
-     * PLEASE READ THIS SECTION
-     * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
-     * The link doesn't need to appear on every pages, one link on one page is enough.
-     * For example, in the `About` page. Thank you for your support, it'll mean a lot to me.
-     */}
+    FTDS - FTU {new Date().getFullYear()} © {'Int2k'}
     <style jsx>
       {`
         .footer-copyright :global(a) {

@@ -7,7 +7,7 @@ const Nav = () => {
   const t = UseTranslate();
   return (
     <div
-      className={`navbar sticky top-0 z-[9999] h-[60px] shadow-sm  ${AppConfig.bg_dark_nav} ${AppConfig.text_primary_color}`}
+      className={`navbar sticky top-0 z-[9999] h-[60px] shadow-sm  ${AppConfig.bg_light_nav} ${AppConfig.text_primary_color_dark}`}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -30,34 +30,38 @@ const Nav = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className={`menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow ${AppConfig.bg_light_nav}`}
           >
             <li>
-              <Link href={"/#event-description"}>
+              <Link href={"/"}>{t("Home")}</Link>
+            </li>
+            <li>
+              <Link href={"#about-conference-card"}>
                 {t("Nav.EventDescription")}
               </Link>
             </li>
             <li>
-              <Link href={"/about"}>{t("Nav.About")}</Link>
-              <ul className="p-2">
-                <li>
-                  <Link href={"#"}>{t("Nav.About.Speakers")}</Link>
-                </li>
-                <li>
-                  <Link href={"#"}>{t("Nav.About.OrganizingCommittee")}</Link>
-                </li>
-                <li>
-                  <Link href={"#"}>{t("Nav.About.ProgrammeBoard")}</Link>
-                </li>
-              </ul>
+              <Link href={"#call-for-paper-card"}>{t("Call for paper")}</Link>
             </li>
             <li>
-              <Link href={"/#contact-us"}>{t("Nav.Contact")}</Link>
+              <Link href={"#registration-card"}>{t("Registration")}</Link>
+            </li>
+            <li>
+              <Link href={"#speakers-card"}>{t("Speakers")}</Link>
+            </li>
+            <li>
+              <Link href={"#committees-card"}>{t("Committees")}</Link>
+            </li>
+            <li>
+              <Link href={"#location-card"}>{t("Location")}</Link>
+            </li>
+            <li>
+              <Link href={"#contact-us-card"}>{t("Nav.Contact")}</Link>
             </li>
           </ul>
         </div>
         <div className="flex flex-wrap items-center justify-between">
-          <div className={"block w-1/2 md:w-1/5 md:pl-5"}>
+          <div className={"block w-1/2 md:w-1/3 md:pl-5"}>
             <Link href="/">
               <Logo />
             </Link>
@@ -65,7 +69,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 font-bold">
           <li>
             <Link href={"/"}>{t("Home")}</Link>
           </li>
@@ -105,7 +109,7 @@ const Nav = () => {
         </ul>
       </div>
       <div className="navbar-end md:pr-5">
-        <a className={`btn ${AppConfig.bg_light} ${AppConfig.text_primary_color_dark}`}>{t("Nav.Submit")}</a>
+        <a className={`btn ${AppConfig.border_dark} ${AppConfig.bg_light} ${AppConfig.text_primary_color_dark}`}>{t("Nav.Submit")}</a>
       </div>
     </div>
   );

@@ -29,7 +29,7 @@ const HeadCardContentMiddle = () => {
         </div>
       </div>
       <div className={"block pb-10 max-sm:hidden md:pr-24 md:pt-40 lg:w-1/2 xl:w-2/6"}>
-        <div className={`flex-col items-center ${AppConfig.bg_dark} rounded-xl bg-opacity-70 p-5`}>
+        <div className={`flex-col items-center rounded-xl bg-red-800 bg-opacity-70 p-5`}>
           <div className={'flex items-center justify-center'}>
             <div className={'w-[40px]'}>
               <FontAwesomeIcon icon={faCalendar} />

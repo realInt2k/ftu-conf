@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-dark-ftu {
+    background-color: rgb(172 0 1 / var(--tw-bg-opacity, 1));
+}
+.border-dark-ftu {
+    border-color: #cc0000;
+}
+
+.text-dark-ftu {
+    color: #cc0000;
+}
+
+.text-secondary-color-dark-ftu {
+    color: #e82525;
+}

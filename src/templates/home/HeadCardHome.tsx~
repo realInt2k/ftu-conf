@@ -11,14 +11,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {AppConfig} from "@/utils/AppConfig";
 
 const bottomInfoCol = (
-  { topText, botText, icon} = {
+  { topText, botText, icon, iconSize } = {
     topText: "",
     botText: "",
     icon: faLocationDot,
+    iconSize: "20px",
   },
 ) => (
   <div className={`flex w-full justify-center`}>
-    <div className={`mt-1 w-[20px]`}>
+    <div className={`w-[20px] mt-1`}>
       <FontAwesomeIcon icon={icon} />
     </div>
     <div className={"ml-2"}>
@@ -76,21 +77,25 @@ const SimpleSlider = () => {
             topText: "LOCATION",
             botText: "91 Chua Lang, Ha Noi",
             icon: faLocationDot,
+            iconSize: "20px",
           })}
           {bottomInfoCol({
             topText: "PAPER SUBMISSION",
             botText: "20/05/2025",
             icon: faCalendarDays,
+            iconSize: "20px",
           })}
           {bottomInfoCol({
             topText: "CONFERENCE REG.",
             botText: "12/08/2025",
             icon: faCalendarDays,
+            iconSize: "20px",
           })}
           {bottomInfoCol({
             topText: "CONFERENCE DAY",
             botText: "16/08/2025",
             icon: faCalendarDays,
+            iconSize: "20px",
           })}
         </div>
       </div>

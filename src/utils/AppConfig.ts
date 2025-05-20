@@ -14,4 +14,5 @@ export const AppConfig = {
   bg_dark_nav: 'bg-red-900',
   bg_light_nav: 'bg-gray-200',
   background_color: '#222',
+  bg_darker:"bg-gray-800",
 };

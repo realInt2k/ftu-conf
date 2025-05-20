@@ -9,7 +9,7 @@ const RegistrationCard = (props: IBodyCardProp) => {
       passThroughChild={true}
       title={"Registration"}
     >
-      <div>
+      <div className={'mt-4'}>
         <ul>
           <li>International Registrants: ?? USD.</li>
           <li>Local Registrants: ?? VND.</li>

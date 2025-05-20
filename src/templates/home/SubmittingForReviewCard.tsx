@@ -8,7 +8,7 @@ const SubmittingForReviewCard = (props: IBodyCardProp) => {
             passThroughChild={true}
             title={'SUBMITING FOR REVIEW'}
         >
-            <div>
+            <div className={'mt-4'}>
                 Use the google form to etc. etc.
             </div>
         </SectionFullWidth>

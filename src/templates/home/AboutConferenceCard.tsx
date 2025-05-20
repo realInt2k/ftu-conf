@@ -11,7 +11,7 @@ const AboutConferenceCard = (props: IBodyCardProp) =>{
             passThroughChild={true}
             title={t('DescriptionHome.AboutConferenceTitle')}
         >
-            <div className={`text-justify text-xl`}>
+            <div className={`mt-4 text-justify text-xl`}>
                 {t('DescriptionHome.AboutConference')}
             </div>
         </SectionFullWidth>

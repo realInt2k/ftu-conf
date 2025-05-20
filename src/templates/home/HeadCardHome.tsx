@@ -70,7 +70,7 @@ const SimpleSlider = () => {
         }
       >
         <div
-          className={`relative bottom-[60px] h-[60px] w-full px-2 pt-2 sm:w-2/3 ${AppConfig.bg_dark} grid grid-cols-4 gap-4 rounded-t-xl`}
+          className={`relative bottom-[60px] h-[60px] w-full px-2 pt-2 sm:w-2/3 ${AppConfig.bg_darker} grid grid-cols-4 gap-4 rounded-t-xl`}
         >
           {bottomInfoCol({
             topText: "LOCATION",

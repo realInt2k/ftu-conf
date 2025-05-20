@@ -14,7 +14,7 @@ const ContactUsCard = (props: IBodyCardProp) => {
             passThroughChild={true}
             title={'Contact us'}
         >
-            <div>
+            <div className={'mt-4'}>
                 <li className={'flex'}>
                     {linkIcon()}
                     <Link target={'_blank'} href="https://ftu.edu.vn">FTU Home</Link>

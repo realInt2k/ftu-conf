@@ -9,7 +9,7 @@ const SubmittingForReviewCard = (props: IBodyCardProp) => {
             passThroughChild={true}
             title={'SUBMITING FOR REVIEW'}
         >
-            <div className={'mt-4 text-xl'}>
+            <div className={'mt-4 text-justify text-xl'}>
                 <ul className={'ml-6 list-disc'}>
                     <li>
                         Authors will submit their paper to us via <Link className={'text-red-900'} href={'#'}>Google form</Link>

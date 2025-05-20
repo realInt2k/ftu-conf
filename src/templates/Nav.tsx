@@ -32,7 +32,7 @@ const Nav = () => {
       id={"navbar"}
       className={`navbar sticky top-0 z-[9999] h-[60px] bg-transparent shadow-sm ${AppConfig.text_primary_color} bg-opacity-85`}
     >
-      <div className={"block w-[160px] min-w-[160px] max-w-[160px] max-lg:hidden"}>
+      <div className={"block w-[160px] min-w-[160px] max-w-[160px] max-md:hidden"}>
         <Link href="/">
           <Logo />
         </Link>
@@ -92,7 +92,7 @@ const Nav = () => {
           </ul>
         </div>
         <div className="flex flex-wrap items-center justify-between">
-          <div className={"hidden w-1/2 max-lg:block sm:w-1/3 md:w-1/3 md:pl-5"}>
+          <div className={"mt-1 hidden w-1/3 max-md:block"}>
             <Link href="/">
               <Logo />
             </Link>

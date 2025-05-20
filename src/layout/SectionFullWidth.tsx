@@ -45,7 +45,7 @@ const SectionFullWidth = (props: ISectionProps) => {
             )}
             {props.description && (
               <div
-                className={`mt-4 text-xl ${props.descriptionColor ? props.descriptionColor : !props.dark ? AppConfig.text_primary_color_dark : AppConfig.text_primary_color}`}
+                className={`mt-4 text-justify text-xl ${props.descriptionColor ? props.descriptionColor : !props.dark ? AppConfig.text_primary_color_dark : AppConfig.text_primary_color}`}
               >
                 {props.description}
               </div>

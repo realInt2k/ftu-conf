@@ -30,7 +30,7 @@ const callForPaperExtension = () => {
       childClass={"w-full text-right"}
     >
       <Link
-        className={`btn ${AppConfig.bg_dark} ${AppConfig.text_primary_color}`}
+        className={`btn ${AppConfig.bg_dark} ${AppConfig.text_primary_color} ${AppConfig.border_dark}`}
         target="_blank"
         href={
           "https://drive.google.com/file/d/1jym50iSPNLynKK--3u21xYArB37zQO5m/view?usp=sharing"

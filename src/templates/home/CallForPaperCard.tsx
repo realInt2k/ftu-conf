@@ -13,7 +13,7 @@ const CallForPaperCard = (props: IBodyCardProp) => {
           "poster presentation and workshops on all aspect of innovation and challenges in one of the most prestigious Universities in Vietnam - FTU. "
       }
     >
-      <div className={'mt-4 text-xl'}>
+      <div className={'mt-4 text-justify text-xl'}>
         <p>
           Researchers/ Faculties/ Student/ industry experts will present the latest developments and technical solutions in area of the below themes:
         </p>

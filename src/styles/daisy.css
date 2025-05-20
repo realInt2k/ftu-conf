@@ -655,6 +655,7 @@ video {
 }
 .navbar-center,
 .navbar-start {
+  display: inline-flex;
   align-items: center;
 }
 .navbar-center {

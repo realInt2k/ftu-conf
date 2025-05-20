@@ -43,7 +43,7 @@ const callForPaperExtension = () => {
 };
 
 const Index = () => {
-    const shiftClass = "relative top-[-64px]";
+    const shiftClass = ` relative top-[${AppConfig.shift_top}]`;
     return (
         <div className={`${AppConfig.bg_dark}`}>
             <Meta title={AppConfig.title} description={AppConfig.description} />

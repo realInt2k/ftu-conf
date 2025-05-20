@@ -38,8 +38,9 @@ const SimpleSlider = () => {
     nextArrow: <></>,
     previousArrow: <></>,
   };
+  const shiftClass = "relative top-[-64px]";
   return (
-    <div className={`top-[ relative${AppConfig.shift_top}]`}>
+    <div className={shiftClass}>
       <Slider {...settings}>
         <div
           className={

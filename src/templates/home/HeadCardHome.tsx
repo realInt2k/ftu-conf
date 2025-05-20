@@ -58,7 +58,7 @@ const SimpleSlider = () => {
             " min-h-[calc(100vh)] bg-ftds-conf bg-cover bg-bottom"
           }
         >
-          <div className="bg-dark min-h-[calc(100vh)] backdrop-brightness-50">
+          <div className="bg-dark min-h-[calc(100vh)] backdrop-brightness-50 max-sm:flex max-sm:flex-col max-sm:justify-center">
             <div className={"h-full px-5 md:px-48"}>
               <HeadCardContentMiddle />
             </div>

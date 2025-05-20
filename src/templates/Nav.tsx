@@ -33,6 +33,11 @@ const Nav = () => {
       id={"navbar"}
       className={`navbar sticky top-0 z-[9999] h-[60px] bg-transparent shadow-sm ${AppConfig.text_primary_color} bg-opacity-85`}
     >
+      <div className={"block w-1/2 max-lg:hidden md:pl-5 lg:w-1/2 xl:w-1/5"}>
+        <Link href="/">
+          <Logo />
+        </Link>
+      </div>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -85,7 +90,7 @@ const Nav = () => {
           </ul>
         </div>
         <div className="flex flex-wrap items-center justify-between">
-          <div className={"block w-1/2 md:w-1/3 md:pl-5"}>
+          <div className={"hidden w-1/2 max-lg:block sm:w-1/3 md:w-1/3 md:pl-5"}>
             <Link href="/">
               <Logo />
             </Link>

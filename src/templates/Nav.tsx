@@ -7,7 +7,7 @@ const Nav = () => {
   const t = UseTranslate();
   return (
     <div
-      className={`navbar sticky top-0 z-[9999] h-[60px] shadow-sm  ${AppConfig.bg_dark_nav} ${AppConfig.text_primary_color}`}
+      className={`navbar sticky top-0 z-[9999] h-[60px] shadow-sm  ${AppConfig.bg_dark_nav} ${AppConfig.text_primary_color} bg-opacity-95`}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -30,7 +30,7 @@ const Nav = () => {
           </div>
           <ul
             tabIndex={0}
-            className={`menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow ${AppConfig.bg_light_nav}`}
+            className={`menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow ${AppConfig.bg_dark_nav}`}
           >
             <li>
               <Link href={"/"}>{t("Home")}</Link>
@@ -109,7 +109,7 @@ const Nav = () => {
         </ul>
       </div>
       <div className="navbar-end md:pr-5">
-        <a className={`btn ${AppConfig.border_dark} ${AppConfig.bg_light} ${AppConfig.text_primary_color_dark}`}>{t("Nav.Submit")}</a>
+        <a className={`btn ${AppConfig.border_light} ${AppConfig.bg_light} ${AppConfig.text_primary_color_dark}`}>{t("Nav.Submit")}</a>
       </div>
     </div>
   );

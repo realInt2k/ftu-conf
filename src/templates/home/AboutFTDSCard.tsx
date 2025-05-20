@@ -8,7 +8,7 @@ const AboutFTDSCard = (props: IBodyCardProp) => {
             passThroughChild={true}
             title={'About FTDS'}
         >
-            <div className={'mt-4'}>
+            <div className={'mt-4 text-xl'}>
                 FTDS is a young department of Foreign Trade University (FTU) in Vietnam.
             </div>
         </SectionFullWidth>

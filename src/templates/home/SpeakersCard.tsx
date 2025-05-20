@@ -9,6 +9,7 @@ const SpeakersCard = (props: IBodyCardProp) => {
             dark={props.dark}
             passThroughChild={true}
             title={"Keynote / Guest Speaker"}
+            description={'updating...'}
         >
         <div className={'pt-5 md:grid md:grid-cols-3 md:gap-4'}>
             <div className={'flex flex-col items-center'}>

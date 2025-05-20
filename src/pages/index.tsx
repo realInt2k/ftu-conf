@@ -9,7 +9,7 @@ import { SectionFullWidth } from "@/layout/SectionFullWidth";
 import Link from "next/link";
 import AboutFTUCard from "@/templates/home/AboutFTUCard";
 import CallForPaperCard from "@/templates/home/CallForPaperCard";
-import ResearchArticlePreparationCard from "@/templates/home/ResearchArticlePreparationCard";
+import SubmissionGuidelineCard from "@/templates/home/SubmissionGuidelineCard";
 import SubmittingForReviewCard from "@/templates/home/SubmittingForReviewCard";
 import AboutFTDSCard from "@/templates/home/AboutFTDSCard";
 import SpeakersCard from "@/templates/home/SpeakersCard";
@@ -57,7 +57,7 @@ const Index = () => {
                 <AboutConferenceCard dark={false} />
                 <CallForPaperCard dark={true} />
                 <ConferenceThemeCard dark={false} />
-                <ResearchArticlePreparationCard dark={true} />
+                <SubmissionGuidelineCard dark={true} />
                 <SubmittingForReviewCard dark={false} />
                 <RegistrationCard dark={true} />
                 <SpeakersCard dark={false} />

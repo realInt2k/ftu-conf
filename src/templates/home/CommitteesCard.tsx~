@@ -23,7 +23,7 @@ const CommitteesCard = (props: IBodyCardProp) => {
       dark={props.dark}
       passThroughChild={true}
       title={"Committees"}
-      description={'Updating...'}
+      description={'Updating..'}
     >
       {peopleCard(
         props.dark,

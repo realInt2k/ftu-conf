@@ -32,12 +32,12 @@ const Nav = () => {
       id={"navbar"}
       className={`navbar sticky top-0 z-[9999] h-[60px] bg-transparent shadow-sm ${AppConfig.text_primary_color} bg-opacity-85`}
     >
-      <div className={"block w-[160px] min-w-[160px] max-w-[160px] max-lg:hidden"}>
+      <div className={"block sm:hidden min-w-[160px] w-[160px] max-w-[160px]"}>
         <Link href="/">
           <Logo />
         </Link>
       </div>
-      <div className="navbar-start sm:hidden">
+      <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -99,7 +99,7 @@ const Nav = () => {
           </div>
         </div>
       </div>
-      <div className="navbar-center hidden justify-center lg:flex">
+      <div className="navbar-center hidden lg:flex justify-center">
         <ul className="menu menu-horizontal px-1 font-bold">
           <li>
             <Link href={"/"}>{t("Home")}</Link>

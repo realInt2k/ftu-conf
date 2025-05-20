@@ -22,7 +22,7 @@ const bottomInfoCol = (
       <FontAwesomeIcon icon={icon} />
     </div>
     <div className={"ml-2"}>
-      <p className={"font-bold"}>{topText}</p>
+      <p className={`font-bold ${AppConfig.text_secondary_color_dark}`}>{topText}</p>
       <p className={"text-sm"}>{botText}</p>
     </div>
   </div>

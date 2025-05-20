@@ -9,10 +9,13 @@ const RegistrationCard = (props: IBodyCardProp) => {
       passThroughChild={true}
       title={"Registration"}
     >
-      <div className={'mt-4'}>
-        <ul>
-          <li>International Registrants: ?? USD.</li>
-          <li>Local Registrants: ?? VND.</li>
+      <div className={'mt-4 text-xl'}>
+        <p>
+          Our event is completely free, from paper submission to conference registration!
+        </p>
+        <ul className={'ml-6 list-disc'}>
+          <li>International Registrants: <span className={'font-bold'}>Free + benefits.</span></li>
+          <li>Local Registrants: <span className={'font-bold'}>Free + benefits.</span></li>
         </ul>
       </div>
     </SectionFullWidth>

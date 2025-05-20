@@ -28,14 +28,14 @@ const LocationCard = (props: IBodyCardProp) => {
                 <div className={`w-full md:w-1/2`}>
                     {MapEmbed()}
                 </div>
-                <div className={`mt-5 w-full md:ml-10 md:mt-0 md:w-1/2`}>
-                    <p className={`mt-1 text-xl`}>
+                <ul className={`mt-5 w-full list-disc md:ml-10 md:mt-0 md:w-1/2`}>
+                    <li className={`mt-1 text-xl`}>
                         {t('DescriptionHome.Location.Detail.1')}
-                    </p>
-                    <p className={`mt-1 text-xl`}>
+                    </li>
+                    <li className={`mt-1 text-xl`}>
                         {t('DescriptionHome.Location.Detail.2')}
-                    </p>
-                </div>
+                    </li>
+                </ul>
             </div>
         </SectionFullWidth>
     );

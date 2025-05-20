@@ -1,4 +1,3 @@
-import { Base } from "@/templates/Base";
 import { Meta } from "@/layout/Meta";
 import { AppConfig } from "@/utils/AppConfig";
 import { HeadCardHome } from "@/templates/home/HeadCardHome";
@@ -17,6 +16,8 @@ import SpeakersCard from "@/templates/home/SpeakersCard";
 import CommitteesCard from "@/templates/home/CommitteesCard";
 import RegistrationCard from "@/templates/home/RegistrationCard";
 import ContactUsCard from "@/templates/home/ContactUsCard";
+import { Nav } from "@/templates/Nav";
+import {Footer} from "@/templates/Footer";
 
 const callForPaperExtension = () => {
   return (
@@ -42,24 +43,28 @@ const callForPaperExtension = () => {
 };
 
 const Index = () => (
-  <Base>
+  <div className={`${AppConfig.bg_dark}`}>
     <Meta title={AppConfig.title} description={AppConfig.description} />
+    <Nav />
     <HeadCardHome />
-    <ImportantTimelineMobileCard />
-    {callForPaperExtension()}
-    <AboutFTUCard dark={false} />
-    <AboutFTDSCard dark={true} />
-    <AboutConferenceCard dark={false} />
-    <CallForPaperCard dark={true} />
-    <ConferenceThemeCard dark={false} />
-    <ResearchArticlePreparationCard dark={true} />
-    <SubmittingForReviewCard dark={false} />
-    <RegistrationCard dark={true} />
-    <SpeakersCard dark={false} />
-    <CommitteesCard dark={true} />
-    <LocationCard dark={false} />
-    <ContactUsCard dark={true} />
-  </Base>
+    <div className={`top-[ relative${AppConfig.shift_top}]`}>
+        <ImportantTimelineMobileCard />
+        {callForPaperExtension()}
+        <AboutFTUCard dark={false} />
+        <AboutFTDSCard dark={true} />
+        <AboutConferenceCard dark={false} />
+        <CallForPaperCard dark={true} />
+        <ConferenceThemeCard dark={false} />
+        <ResearchArticlePreparationCard dark={true} />
+        <SubmittingForReviewCard dark={false} />
+        <RegistrationCard dark={true} />
+        <SpeakersCard dark={false} />
+        <CommitteesCard dark={true} />
+        <LocationCard dark={false} />
+        <ContactUsCard dark={true} />
+    </div>
+      <Footer dark={true}/>
+  </div>
 );
 
 export default Index;

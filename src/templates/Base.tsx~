@@ -1,4 +1,6 @@
+import { Nav } from "@/templates/Nav";
 import { ReactNode } from "react";
+import {Footer} from "@/templates/Footer";
 
 type IBaseProps = {
   children?: ReactNode;

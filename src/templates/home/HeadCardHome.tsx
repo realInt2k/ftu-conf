@@ -39,14 +39,14 @@ const SimpleSlider = () => {
     previousArrow: <></>,
   };
   return (
-    <div className={"relative"}>
+    <div className={`top-[ relative${AppConfig.shift_top}]`}>
       <Slider {...settings}>
         <div
           className={
-            "min-h-[calc(100vh-60px)] bg-ftds-selfie-dark bg-cover bg-bottom"
+            "min-h-[calc(100vh)] bg-ftds-selfie-dark bg-cover bg-bottom"
           }
         >
-          <div className="bg-dark backdrop-brightness-25 min-h-[calc(100vh-60px)] max-sm:flex max-sm:flex-col max-sm:justify-center">
+          <div className="bg-dark backdrop-brightness-25 min-h-[calc(100vh)] max-sm:flex max-sm:flex-col max-sm:justify-center">
             <div className={"h-full px-5 xl:px-10 2xl:px-48"}>
               <HeadCardContentMiddle />
             </div>
@@ -54,10 +54,10 @@ const SimpleSlider = () => {
         </div>
         <div
           className={
-            " min-h-[calc(100vh-60px)] bg-ftds-conf bg-cover bg-bottom"
+            " min-h-[calc(100vh)] bg-ftds-conf bg-cover bg-bottom"
           }
         >
-          <div className="bg-dark min-h-[calc(100vh-60px)] backdrop-brightness-50">
+          <div className="bg-dark min-h-[calc(100vh)] backdrop-brightness-50">
             <div className={"h-full px-5 md:px-48"}>
               <HeadCardContentMiddle />
             </div>

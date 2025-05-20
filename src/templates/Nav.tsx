@@ -2,12 +2,36 @@ import Link from "next/link";
 import { Logo } from "@/templates/Logo";
 import UseTranslate from "@/hooks/Usetranslate";
 import { AppConfig } from "@/utils/AppConfig";
+import { useEffect } from "react";
 
 const Nav = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const nav = document.getElementById("navbar");
+      if (!nav) return;
+
+      if (window.scrollY > window.innerHeight) {
+        console.log('asdasdasd')
+        nav.classList.remove("bg-transparent");
+        nav.classList.add("bg-gray-900");
+      } else {
+        nav.classList.add("bg-transparent");
+        nav.classList.remove("bg-gray-900");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   const t = UseTranslate();
   return (
     <div
-      className={`navbar sticky top-0 z-[9999] h-[60px] shadow-sm  ${AppConfig.bg_dark_nav} ${AppConfig.text_primary_color} bg-opacity-95`}
+      id={"navbar"}
+      className={`navbar sticky top-0 z-[9999] h-[60px] bg-transparent shadow-sm ${AppConfig.text_primary_color} bg-opacity-85`}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -109,7 +133,11 @@ const Nav = () => {
         </ul>
       </div>
       <div className="navbar-end md:pr-5">
-        <a className={`btn ${AppConfig.border_light} ${AppConfig.bg_light} ${AppConfig.text_primary_color_dark}`}>{t("Nav.Submit")}</a>
+        <a
+          className={`btn ${AppConfig.border_light} ${AppConfig.bg_light} ${AppConfig.text_primary_color_dark}`}
+        >
+          {t("Nav.Submit")}
+        </a>
       </div>
     </div>
   );

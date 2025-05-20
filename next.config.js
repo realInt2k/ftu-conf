@@ -16,7 +16,7 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   i18n: {
     locales: ['en', 'vi'],
-    defaultLocale: 'vi',
+    defaultLocale: 'en',
     localeDetection: false,
   },
 });

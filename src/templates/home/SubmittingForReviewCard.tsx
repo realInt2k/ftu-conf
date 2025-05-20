@@ -1,19 +1,18 @@
-import {FooterCopyright} from "@/footer/FooterCopyright";
 import {SectionFullWidth} from "@/layout/SectionFullWidth";
 import IBodyCardProp from "@/templates/home/IBodyCardProp";
 
-const Footer = (props: IBodyCardProp) => {
+const SubmittingForReviewCard = (props: IBodyCardProp) => {
     return (
         <SectionFullWidth
             dark={props.dark}
-            yPadding={'py-5'}
             passThroughChild={true}
+            title={'SUBMITING FOR REVIEW'}
         >
-            <div className={'flex justify-center'}>
-                <FooterCopyright />
+            <div>
+                Use the google form to etc. etc.
             </div>
         </SectionFullWidth>
-    );
+    )
 }
 
-export { Footer };
+export default SubmittingForReviewCard;

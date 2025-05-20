@@ -1,6 +1,6 @@
-import {AppConfig} from "@/utils/AppConfig";
-import { Section } from '@/layout/Section';
 import UseTranslate from "@/hooks/Usetranslate";
+import {SectionFullWidth} from "@/layout/SectionFullWidth";
+import IBodyCardProp from "@/templates/home/IBodyCardProp";
 
 const MapEmbed = () => {
     return (
@@ -15,31 +15,30 @@ const MapEmbed = () => {
       </div>
   );
 };
-const Location = () => {
+const LocationCard = (props: IBodyCardProp) => {
     const t = UseTranslate();
     return (
-        <Section
-            xPadding={'px-5'}
-            yPadding={'mt-10 py-3'}
-            bgColor={'bg-gray-100 rounded-md'}
-            titleColor={`${AppConfig.text_primary_color_dark}`}
+        <SectionFullWidth
+            cardID={'location-card'}
+            dark={props.dark}
+            passThroughChild={true}
             title={t('DescriptionHome.Location.Title')}
         >
-            <div className={'w-full p-5 md:flex'}>
+            <div className={'w-full pt-5 md:flex'}>
                 <div className={`w-full md:w-1/2`}>
                     {MapEmbed()}
                 </div>
                 <div className={`mt-5 w-full md:ml-10 md:mt-0 md:w-1/2`}>
-                    <p className={`mt-1 text-xl ${AppConfig.text_secondary_color_dark}`}>
+                    <p className={`mt-1 text-xl`}>
                         {t('DescriptionHome.Location.Detail.1')}
                     </p>
-                    <p className={`mt-1 text-xl ${AppConfig.text_secondary_color_dark}`}>
+                    <p className={`mt-1 text-xl`}>
                         {t('DescriptionHome.Location.Detail.2')}
                     </p>
                 </div>
             </div>
-        </Section>
+        </SectionFullWidth>
     );
 }
 
-export { Location };
+export { LocationCard };

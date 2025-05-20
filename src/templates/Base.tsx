@@ -13,7 +13,7 @@ const Base = (props: IBaseProps) => (
     <Nav />
     <div className="bg-ftu-super bg-no-repeat text-gray-600 antialiased">
       {props.children}
-      <Footer />
+      <Footer dark={true}/>
     </div>
   </div>
 );

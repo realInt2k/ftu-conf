@@ -50,5 +50,7 @@
   "About.OrganizingCommittee.Title": "Ban tổ chức",
   "About.Speakers.Title": "Diễn giả",
   "About.ProgrammeBoard.Title": "Ban chương trình",
-  "Lang.Switch": "Đổi sang"
+  "Lang.Switch": "Switch to",
+  "Conference.Date": "Thời gian hội thảo",
+  "Conference.Date.Month": "Tháng 8, 2025"
 }

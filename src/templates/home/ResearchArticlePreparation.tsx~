@@ -1,0 +1,13 @@
+import {SectionFullWidth} from "@/layout/SectionFullWidth";
+
+const ResearchArticlePreparation = () => {
+    return (<SectionFullWidth
+        dark={true}
+        passThroughChild={true}
+        title={'Research Article Preparation'}
+        description={'How you prepare for article submission & regulation'}
+    ><></>
+    </SectionFullWidth>)
+}
+
+export default ResearchArticlePreparation

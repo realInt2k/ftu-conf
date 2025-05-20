@@ -8,6 +8,9 @@ export const AppConfig = {
   text_secondary_color: 'text-blue-200',
   text_secondary_color_dark: 'text-indigo-900',
   bg_light: 'bg-gray-200',
-  bg_dark: 'bg-indigo-900',
+  bg_dark: 'bg-blue-900',
+  border_dark: 'border-blue-900',
+  border_light: 'border-gray-200',
+  bg_dark_nav: 'bg-indigo-900',
   background_color: '#222',
 };

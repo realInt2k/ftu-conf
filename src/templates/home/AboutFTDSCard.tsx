@@ -1,19 +1,18 @@
-import {FooterCopyright} from "@/footer/FooterCopyright";
 import {SectionFullWidth} from "@/layout/SectionFullWidth";
 import IBodyCardProp from "@/templates/home/IBodyCardProp";
 
-const Footer = (props: IBodyCardProp) => {
+const AboutFTDSCard = (props: IBodyCardProp) => {
     return (
         <SectionFullWidth
             dark={props.dark}
-            yPadding={'py-5'}
             passThroughChild={true}
+            title={'About FTDS'}
         >
-            <div className={'flex justify-center'}>
-                <FooterCopyright />
+            <div>
+                FTDS is a young department of Foreign Trade University (FTU) in Vietnam.
             </div>
         </SectionFullWidth>
-    );
+    )
 }
 
-export { Footer };
+export default AboutFTDSCard;

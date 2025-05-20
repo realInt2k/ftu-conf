@@ -12,7 +12,11 @@
         "singleQuote": true,
         "endOfLine": "auto"
       }
-    ]
+    ],
+    "no-nested-ternary": "off",
+    "no-useless-concat": "off",
+    "prefer-template": "off",
+    "spaced-comment": "off"
   },
   "overrides": [
     // Configuration for TypeScript files

@@ -1,31 +1,19 @@
-import { Section } from '@/layout/Section';
-import { AppConfig } from '@/utils/AppConfig';
-import { TimelineItem } from "@/small-components/TimelineItem";
+import {TimelineItem} from "@/small-components/TimelineItem";
+import {Section} from "@/layout/Section";
 import UseTranslate from "@/hooks/Usetranslate";
+import {AppConfig} from "@/utils/AppConfig";
 
-const DescriptionCard = () =>{
+// @ts-ignore
+const ImportantTimelineMobileCard = () => {
     const t = UseTranslate();
     return (
-        <div id={'event-description'}>
+        <div className={'my-0 block py-0 sm:hidden'}>
             <Section
                 xPadding={'px-5'}
-                yPadding={'pt-12 rounded-t-md'}
-                titleColor={AppConfig.text_primary_color_dark}
-                title={t('DescriptionHome.AboutConferenceTitle')}
-                descriptionColor={AppConfig.text_secondary_color_dark}
-                description=""
-                bgColor={`${AppConfig.bg_light}`}
-            >
-                <div className={`mt-4 px-5 text-justify text-xl md:px-10 ${AppConfig.text_secondary_color_dark}`}>
-                    {t('DescriptionHome.AboutConference')}
-                </div>
-            </Section>
-            <Section
-                xPadding={'px-5'}
-                yPadding={'pt-4 pb-12 rounded-b-md'}
-                titleColor={AppConfig.text_primary_color_dark}
+                yPadding={'pt-4 pb-12'}
+                titleColor={'text-white'}
                 title={t('DescriptionHome.TimeLineTitle')}
-                bgColor={`${AppConfig.bg_light}`}
+                bgColor={`${AppConfig.bg_dark}`}
             >
                 <div className={`flex justify-center px-10 pt-5 md:w-full md:px-0`}>
                     <ul className="timeline md:timeline-horizontal timeline-vertical">
@@ -39,6 +27,5 @@ const DescriptionCard = () =>{
             </Section>
         </div>
     )
-};
-
-export { DescriptionCard };
+}
+export default ImportantTimelineMobileCard

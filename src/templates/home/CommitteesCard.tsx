@@ -1,0 +1,75 @@
+import { SectionFullWidth } from "@/layout/SectionFullWidth";
+import IBodyCardProp from "@/templates/home/IBodyCardProp";
+import { AppConfig } from "@/utils/AppConfig";
+import { ReactNode } from "react";
+
+const peopleCard = (isDark: boolean, title: string, child: ReactNode) => {
+  return (
+    <div
+      className={`${isDark ? AppConfig.bg_light + " " + AppConfig.text_primary_color_dark : AppConfig.bg_dark + " " + AppConfig.text_primary_color} my-5 rounded-md p-2`}
+    >
+      <p className={"text-xl font-bold"}>{title}</p>
+      <hr
+        className={`my-2 ${isDark ? AppConfig.border_dark : AppConfig.border_light}`}
+      />
+      {child}
+    </div>
+  );
+};
+const CommitteesCard = (props: IBodyCardProp) => {
+  return (
+    <SectionFullWidth
+      cardID={"committees-card"}
+      dark={props.dark}
+      passThroughChild={true}
+      title={"Committees"}
+    >
+      {peopleCard(
+        props.dark,
+        "Convenor",
+        <ul className={"ml-5 list-disc"}></ul>,
+      )}
+      {peopleCard(
+        props.dark,
+        "Co-Convenor",
+        <ul className={"ml-5 list-disc"}></ul>,
+      )}
+      {peopleCard(
+        props.dark,
+        "Program Chair",
+        <ul className={"ml-5 list-disc"}></ul>,
+      )}
+      {peopleCard(
+        props.dark,
+        "Program Co-Chair",
+        <ul className={"ml-5 list-disc"}></ul>,
+      )}
+      {peopleCard(
+        props.dark,
+        "Organizing chair",
+        <ul className={"ml-5 list-disc"}></ul>,
+      )}
+      {peopleCard(
+        props.dark,
+        "Technical Advisory Board",
+        <ul className={"ml-5 list-disc"}></ul>,
+      )}
+      {peopleCard(
+        props.dark,
+        "Technical and Design Support",
+        <ul className={"ml-5 list-disc"}>
+          <li>
+            Bsc. Dung Nguyen Duy Chi, TA,{" "}
+            <span className={"italic"}> Computer & Data Science faculty</span>
+          </li>
+          <li>
+            Ms. Cuc Nguyen Thi Thu, TA,{" "}
+            <span className={"italic"}> Computer & Data Science faculty</span>
+          </li>
+        </ul>,
+      )}
+    </SectionFullWidth>
+  );
+};
+
+export default CommitteesCard;

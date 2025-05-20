@@ -1,0 +1,17 @@
+import {SectionFullWidth} from "@/layout/SectionFullWidth";
+
+const SubmittingForReview = () => {
+    return (
+        <SectionFullWidth
+            dark={true}
+            passThroughChild={true}
+            title={'SUBMITING FOR REVIEW'}
+        >
+            <div>
+                Use the google form to etc. <etc className=""></etc>
+            </div>
+        </SectionFullWidth>
+    )
+}
+
+export default SubmittingForReview;

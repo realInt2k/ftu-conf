@@ -9,7 +9,6 @@ type IHeadCardProps = {
 const HeadCard = (props: IHeadCardProps) => (
     <SectionFullWidth
         bgColor={'bg-tech-blurred bg-cover rounded-md text-center flex justify-center items-center md:px-0 px-5 py-32 mb-12'}
-        // blurred={'py-32 md:px-10 my-10 z-10 relative backdrop-blur-md rounded-md'}
     >
         <header className="text-left" id={'head-card'}>
             <h1 className={`whitespace-pre-line text-5xl font-bold leading-hero ${AppConfig.text_primary_color}`}>

@@ -26,9 +26,9 @@ const SectionFullWidth = (props: ISectionProps) => {
   return (
     <div
       className={`mx-0 ${
-        props.yPadding ? props.yPadding : "py-20"
+        props.yPadding ? props.yPadding : "py-14"
       } ${props.bgColor ? props.bgColor : props.dark ? AppConfig.bg_dark : AppConfig.bg_light} 
-        ${props.xPadding ? props.xPadding : "px-5 lg:px-12 xl:px-32 2xl:px-72"}`}
+        ${props.xPadding ? props.xPadding : "2xl:px-72 xl:px-32 lg:px-12 px-5"}`}
       id={`${props.cardID}`}
     >
       <div
@@ -38,7 +38,7 @@ const SectionFullWidth = (props: ISectionProps) => {
           <div className="text-left">
             {props.title && (
               <p
-                className={`text-4xl font-bold uppercase ${props.titleColor ? props.titleColor : !props.dark ? AppConfig.text_primary_color_dark : AppConfig.text_primary_color}`}
+                className={`uppercase text-4xl font-bold ${props.titleColor ? props.titleColor : !props.dark ? AppConfig.text_primary_color_dark : AppConfig.text_primary_color}`}
               >
                 {props.title}
               </p>

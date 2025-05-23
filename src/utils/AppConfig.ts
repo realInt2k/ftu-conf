@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'FTDS',
-  title: 'FTU-Conference',
-  description: 'FTU conference',
+  site_name: 'FTU-FTDS-Conference',
+  title: 'FTU Conference',
+  description: 'Conference hosted by Foreign Trade University - FTU - Vietnam',
   locale: 'en',
   text_primary_color: 'text-gray-200',
   text_primary_color_dark: 'text-gray-900',

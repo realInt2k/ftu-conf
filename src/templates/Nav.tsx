@@ -144,6 +144,8 @@ const Nav = () => {
       </div>
       <div className="navbar-end md:pr-5">
         <a
+          href={"https://docs.google.com/forms/d/e/1FAIpQLScEstz7By5ck7q9mfnHHFtAuS98Ju3bthFZhd5r82-LVYk6xQ/viewform?usp=header"}
+          target={'_blank'}
           className={`btn ${AppConfig.border_light} ${AppConfig.bg_light} ${AppConfig.text_primary_color_dark}`}
         >
           {t("Nav.Submit")}

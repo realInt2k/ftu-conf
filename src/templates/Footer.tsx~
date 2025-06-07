@@ -1,0 +1,21 @@
+import {FooterCopyright} from "@/footer/FooterCopyright";
+import {SectionFullWidth} from "@/layout/SectionFullWidth";
+import IBodyCardProp from "@/templates/home/IBodyCardProp";
+import ChatboxEmbed from "@/templates/ChatboxEmbed";
+
+const Footer = (props: IBodyCardProp) => {
+    return (
+        <SectionFullWidth
+            dark={props.dark}
+            yPadding={'py-5'}
+            passThroughChild={true}
+        >
+            <div className={'flex justify-center'}>
+                <FooterCopyright />
+                <ChatboxEmbed/>
+            </div>
+        </SectionFullWidth>
+    );
+}
+
+export { Footer };

@@ -49,8 +49,9 @@ const Index = () => {
         <div className={`${AppConfig.bg_dark}`}>
             <Meta title={AppConfig.title} description={AppConfig.description} />
             <Nav />
-            <HeadCardHome />
             <ChatboxEmbed/>
+            
+            <HeadCardHome />
             <div className={shiftClass}>
                 <ImportantTimelineMobileCard />
                 {callForPaperExtension()}

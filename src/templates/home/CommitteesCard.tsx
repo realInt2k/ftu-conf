@@ -94,11 +94,6 @@ const CommitteesCard = (props: IBodyCardProp) => {
             </li>
             <li>
               <p>
-                <b>Dr. Le Anh Ngoc</b>, <span className={"italic"}>Swinburne University of Technology Vietnam.</span>
-              </p>
-            </li>
-            <li>
-              <p>
                 <b>As.Prof. Nguyen Truong Thang</b>, <span className={"italic"}>Institute of Information Technology, VAST.</span>
               </p>
             </li>
@@ -135,11 +130,6 @@ const CommitteesCard = (props: IBodyCardProp) => {
             <li>
               <p>
                 <b>Dr. Doan Nhat Quang</b>, <span className={"italic"}>University of Science and Technology Hanoi (USTH).</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Le Anh Ngoc</b>, <span className={"italic"}>Swinburne University of Technology Vietnam.</span>
               </p>
             </li>
           </ul>,

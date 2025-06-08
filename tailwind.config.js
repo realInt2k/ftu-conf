@@ -52,6 +52,7 @@ module.exports = {
         "ftds-selfie-dark": "url('/assets/images/ftds-selfie-dark.jpg')",
         "ftds-conf": "url('/assets/images/ftds-conf.jpg')",
         "speakers-1": "url('/assets/images/speakers-1.jpg')",
+        "dr-anh-ngoc": "url('/assets/images/FE-LE-ANH-NGO-C-1740714900_320x320.png')",
       },
     },
   },

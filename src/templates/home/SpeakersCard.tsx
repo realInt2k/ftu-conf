@@ -13,12 +13,12 @@ const SpeakersCard = (props: IBodyCardProp) => {
         >
         <div className={'pt-5 md:grid md:grid-cols-3 md:gap-4'}>
             <div className={'flex flex-col items-center'}>
-                <img style={{height: imgHeight}} src={'/assets/images/speakers-1.jpg'} alt={'speaker-1'}/>
+                <img style={{height: imgHeight}} src={'/assets/images/FE-LE-ANH-NGO-C-1740714900_320x320.png'} alt={'speaker-1'}/>
                 <p className={'pt-5 font-bold'}>
-                    PGS, TS Phạm Thu Hương
+                    Dr. Le Anh Ngoc
                 </p>
                 <p className={''}>
-                    Phó Hiệu trưởng Trường Đại học Ngoại thương.
+                    Swinburne University of Technology Vietnam.
                 </p>
             </div>
         </div>

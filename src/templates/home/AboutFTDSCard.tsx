@@ -9,7 +9,7 @@ const AboutFTDSCard = (props: IBodyCardProp) => {
             title={'About FTDS'}
         >
             <div className={'mt-4 text-xl'}>
-                FTDS is a young department of Foreign Trade University (FTU) in Vietnam.
+                FTDS is the Technology and Data Science department of Foreign Trade University (FTU) in Vietnam.
             </div>
         </SectionFullWidth>
     )

@@ -8,8 +8,10 @@ const AboutFTDSCard = (props: IBodyCardProp) => {
             passThroughChild={true}
             title={'About FTDS'}
         >
-            <div className={'mt-4 text-xl'}>
-                FTDS is the Technology and Data Science department of Foreign Trade University (FTU) in Vietnam.
+            <div className={'mt-4 text-justify text-xl'}>
+                The Faculty of Technology and Data Science was established based on the long-standing Faculty of Basic Sciences of Hanoi Foreign Trade University.
+                The Faculty has the functions and missions of providing specialized training in Computer Science,
+                Data Science, Artificial Intellegence, and applied mathematics, econometrics, and applied informatics for all students of the FTU University.
             </div>
         </SectionFullWidth>
     )

@@ -23,7 +23,6 @@ const CommitteesCard = (props: IBodyCardProp) => {
       dark={props.dark}
       passThroughChild={true}
       title={"Committees"}
-      description={'Updating...'}
     >
       {peopleCard(
         props.dark,
@@ -57,6 +56,12 @@ const CommitteesCard = (props: IBodyCardProp) => {
           props.dark,
           "Program Committee",
           <ul className={"ml-5 list-disc"}>
+            <li>
+              <b>Prof. Dr. Tran Minh-Ngoc</b>, <span className={"italic"}>The University of Sydney Business School, Australia</span>
+            </li>
+            <li>
+              <b>Dr. Nguyen Ngoc Bao</b>, <span className={"italic"}>Apple Inc, USA.</span>
+            </li>
             <li>
               <p>
                 <b>Dr. Nguyen Van Tang</b>, <span className={"italic"}>Faculty of Technology and Data Science, FTU.</span>

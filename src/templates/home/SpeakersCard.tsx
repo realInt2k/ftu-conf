@@ -21,6 +21,15 @@ const SpeakersCard = (props: IBodyCardProp) => {
                     Swinburne University of Technology Vietnam.
                 </p>
             </div>
+            <div className={'flex flex-col items-center'}>
+                <img style={{height: imgHeight}} src={'/assets/images/Nguyen Ngoc Bao.jpg'} alt={'speaker-1'}/>
+                <p className={'pt-5 font-bold'}>
+                    Dr. Nguyen Ngoc Bao
+                </p>
+                <p className={''}>
+                    Apple Inc, USA.
+                </p>
+            </div>
         </div>
         </SectionFullWidth>
     )

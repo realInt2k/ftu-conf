@@ -90,7 +90,7 @@ const SimpleSlider = () => {
           })}
           {bottomInfoCol({
             topText: "CONFERENCE DAY",
-            botText: "16/08/2025",
+            botText: "20/08/2025",
             icon: faCalendarDays,
           })}
         </div>

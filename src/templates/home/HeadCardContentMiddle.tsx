@@ -10,7 +10,7 @@ const HeadCardContentMiddle = () => {
           style={{ borderTop: "double white 4px" }}
           className="text-3xl font-extralight uppercase xl:text-5xl"
         >
-          August 16, 2025
+          August 20, 2025
         </p>
         <div
           style={{ borderBottom: "double white 4px" }}

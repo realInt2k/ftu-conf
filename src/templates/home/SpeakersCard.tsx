@@ -18,7 +18,10 @@ const SpeakersCard = (props: IBodyCardProp) => {
                     Prof. Minh Ngoc Tran
                 </p>
                 <p className={''}>
-                    Discipline of Business Analytics, Sydney Business School.
+                    Discipline of Business Analytics
+                </p>
+                <p>
+                    Sydney Business School.
                 </p>
             </div>
             <div className={'flex flex-col items-center'}>

@@ -17,7 +17,7 @@ const ImportantTimelineMobileCard = () => {
             >
                 <div className={`flex justify-center px-10 pt-5 md:w-full md:px-0`}>
                     <ul className="timeline md:timeline-horizontal timeline-vertical">
-                        <TimelineItem check={true} start={true} date={'20/06/2025'} description={t('DescriptionHome.TimeLine.1')}/>
+                        <TimelineItem check={true} start={true} date={'10/07/2025'} description={t('DescriptionHome.TimeLine.1')}/>
                         <TimelineItem middle={true} date={'20/07/2025'} description={t('DescriptionHome.TimeLine.2')}/>
                         <TimelineItem middle={true} date={'30/07/2025'} description={t('DescriptionHome.TimeLine.3')}/>
                         <TimelineItem middle={true} date={'12/08/2025'} description={t('DescriptionHome.TimeLine.4')}/>

@@ -80,7 +80,7 @@ const SimpleSlider = () => {
           })}
           {bottomInfoCol({
             topText: "PAPER SUBMISSION",
-            botText: "10/07/2025",
+            botText: "20/05/2025",
             icon: faCalendarDays,
           })}
           {bottomInfoCol({

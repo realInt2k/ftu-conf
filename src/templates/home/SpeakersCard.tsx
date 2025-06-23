@@ -13,7 +13,7 @@ const SpeakersCard = (props: IBodyCardProp) => {
         >
         <div className={'pt-5 md:grid md:grid-cols-3 md:gap-4'}>
             <div className={'flex flex-col items-center'}>
-                <img style={{height: imgHeight}} src={'/assets/images/prof-minh-ngoc-tran.jpg'} alt={'speaker-1'}/>
+                <img style={{height: imgHeight}} src={'/assets/images/prof-minh-ngoc-tran.jpg'} alt={'Prof. Minh Ngoc Tran'}/>
                 <p className={'pt-5 font-bold'}>
                     Prof. Minh Ngoc Tran
                 </p>
@@ -25,7 +25,7 @@ const SpeakersCard = (props: IBodyCardProp) => {
                 </p>
             </div>
             <div className={'flex flex-col items-center'}>
-                <img style={{height: imgHeight}} src={'/assets/images/FE-LE-ANH-NGO-C-1740714900_320x320.png'} alt={'speaker-1'}/>
+                <img style={{height: imgHeight}} src={'/assets/images/FE-LE-ANH-NGO-C-1740714900_320x320.png'} alt={'Dr. Le Anh Ngoc'}/>
                 <p className={'pt-5 font-bold'}>
                     Dr. Le Anh Ngoc
                 </p>
@@ -34,12 +34,21 @@ const SpeakersCard = (props: IBodyCardProp) => {
                 </p>
             </div>
             <div className={'flex flex-col items-center'}>
-                <img style={{height: imgHeight}} src={'/assets/images/Nguyen Ngoc Bao.jpg'} alt={'speaker-1'}/>
+                <img style={{height: imgHeight}} src={'/assets/images/Nguyen Ngoc Bao.jpg'} alt={'Dr. Nguyen Ngoc Bao'}/>
                 <p className={'pt-5 font-bold'}>
                     Dr. Nguyen Ngoc Bao
                 </p>
                 <p className={''}>
                     Apple Inc, USA.
+                </p>
+            </div>
+            <div className={'flex flex-col items-center'}>
+                <img style={{height: imgHeight}} src={'/assets/images/mr-david-cropped.jpg'} alt={'mr.David'}/>
+                <p className={'pt-5 font-bold'}>
+                    Mr. David Lapetina
+                </p>
+                <p className={''}>
+                    Engineering Director, Money Forward Vietnam.
                 </p>
             </div>
         </div>

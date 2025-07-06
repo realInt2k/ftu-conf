@@ -30,7 +30,7 @@ const CommitteesCard = (props: IBodyCardProp) => {
         <ul className={"ml-5 list-disc"}>
           <li>
             <p>
-              <b> As.Prof. Dr. Pham Thu Huong</b>, <span className={"italic"}>Vice Rector of Hanoi Foreign Trade University (FTU)</span>
+              <b> As.Prof. Dr. Pham Thu Huong</b>, <span className={"italic"}>Rector of Hanoi Foreign Trade University (FTU)</span>
             </p>
           </li>
           <li>

@@ -15,7 +15,7 @@ const SpeakersCard = (props: IBodyCardProp) => {
             <div className={'flex flex-col items-center'}>
                 <img style={{height: imgHeight}} src={'/assets/images/prof-minh-ngoc-tran.jpg'} alt={'Prof. Minh Ngoc Tran'}/>
                 <p className={'pt-5 font-bold'}>
-                    Prof. Minh Ngoc Tran
+                    Prof. Minh Ngọc Trần
                 </p>
                 <p className={''}>
                     Discipline of Business Analytics
@@ -27,7 +27,7 @@ const SpeakersCard = (props: IBodyCardProp) => {
             <div className={'flex flex-col items-center'}>
                 <img style={{height: imgHeight}} src={'/assets/images/FE-LE-ANH-NGO-C-1740714900_320x320.png'} alt={'Dr. Le Anh Ngoc'}/>
                 <p className={'pt-5 font-bold'}>
-                    Dr. Le Anh Ngoc
+                    Dr. Lê Anh Ngọc
                 </p>
                 <p className={''}>
                     Swinburne University of Technology Vietnam.
@@ -36,7 +36,7 @@ const SpeakersCard = (props: IBodyCardProp) => {
             <div className={'flex flex-col items-center'}>
                 <img style={{height: imgHeight}} src={'/assets/images/Nguyen Ngoc Bao.jpg'} alt={'Dr. Nguyen Ngoc Bao'}/>
                 <p className={'pt-5 font-bold'}>
-                    Dr. Nguyen Ngoc Bao
+                    Dr. Nguyễn Ngọc Bảo
                 </p>
                 <p className={''}>
                     Apple Inc, USA.
@@ -49,6 +49,15 @@ const SpeakersCard = (props: IBodyCardProp) => {
                 </p>
                 <p className={''}>
                     Engineering Director, Money Forward Vietnam.
+                </p>
+            </div>
+            <div className={'flex flex-col items-center'}>
+                <img style={{height: imgHeight}} src={'/assets/images/nguyen-canh-binh.jpg'} alt={'mr.David'}/>
+                <p className={'pt-5 font-bold'}>
+                    Mr. Nguyễn Cảnh Bình
+                </p>
+                <p className={''}>
+                    Chairman of the Board of Directors of Alpha Book
                 </p>
             </div>
         </div>

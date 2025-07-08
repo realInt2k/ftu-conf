@@ -30,12 +30,26 @@ const CommitteesCard = (props: IBodyCardProp) => {
         <ul className={"ml-5 list-disc"}>
           <li>
             <p>
-              <b> As.Prof. Dr. Pham Thu Huong</b>, <span className={"italic"}>Rector of Hanoi Foreign Trade University (FTU)</span>
+              <b> As.Prof. Dr. Pham Thu Huong</b>,{" "}
+              <span className={"italic"}>
+                Rector of Hanoi Foreign Trade University (FTU)
+              </span>
             </p>
           </li>
           <li>
             <p>
-              <b>As.Prof. Dr. Nguyen Truong Thang</b>, <span className={"italic"}>Director of Institute of Information Technology, VAST.</span>
+              <b> As.Prof.Dr. Dao Ngoc Tien</b>,{" "}
+              <span className={"italic"}>
+                Vice Rector of Hanoi Foreign Trade University
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>As.Prof. Dr. Nguyen Truong Thang</b>,{" "}
+              <span className={"italic"}>
+                Director of Institute of Information Technology, VAST.
+              </span>
             </p>
           </li>
         </ul>,
@@ -45,108 +59,168 @@ const CommitteesCard = (props: IBodyCardProp) => {
         "Program Chair",
         <ul className={"ml-5 list-disc"}>
           <li>
-            <b>Dr. Nguyen Van Tang</b>, <span className={"italic"}>Faculty of Technology and Data Science, FTU.</span>
+            <b>Dr. Nguyen Van Tang</b>,{" "}
+            <span className={"italic"}>
+              Faculty of Technology and Data Science, FTU.
+            </span>
           </li>
           <li>
-            <b>As.Prof. Dr. Nguyen Phuong Thai</b>, <span className={"italic"}>University of Engineering and Technology, VNU.</span>
+            <b>As.Prof. Dr. Nguyen Phuong Thai</b>,{" "}
+            <span className={"italic"}>
+              University of Engineering and Technology, VNU.
+            </span>
           </li>
         </ul>,
       )}
       {peopleCard(
-          props.dark,
-          "Program Committee",
-          <ul className={"ml-5 list-disc"}>
-            <li>
-              <b>Prof. Dr. Tran Minh-Ngoc</b>, <span className={"italic"}>The University of Sydney Business School, Australia</span>
-            </li>
-            <li>
-              <b>Dr. Nguyen Ngoc Bao</b>, <span className={"italic"}>Apple Inc, USA.</span>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Nguyen Van Tang</b>, <span className={"italic"}>Faculty of Technology and Data Science, FTU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>MSc. To Thi Hai Yen</b>, <span className={"italic"}>Faculty of Technology and Data Science, FTU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Phung Duy Quang</b>, <span className={"italic"}>Faculty of Technology and Data Science, FTU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Lam Van Son</b>, <span className={"italic"}>Faculty of Technology and Data Science, FTU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Doan Quang Hung</b>, <span className={"italic"}>Faculty of Technology and Data Science, FTU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Pham Thi Kim Dung</b>, <span className={"italic"}>Faculty of Technology and Data Science, FTU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>As.Prof.Dr. Nguyen Thi Thuy Vinh</b>, <span className={"italic"}>Department of Higher Education, FTU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>As.Prof. Nguyen Truong Thang</b>, <span className={"italic"}>Institute of Information Technology, VAST.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>As.Prof. Nguyen Viet Anh</b>, <span className={"italic"}>Institute of Information Technology, VAST.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Ngo Hai Anh</b>, <span className={"italic"}>Institute of Information Technology, VAST.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Nguyen Nhu Son</b>, <span className={"italic"}>Institute of Information Technology, VAST.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>As.Prof. Dr. Phan Xuan Hieu</b>,<span className={"italic"}> University of Engineering and Technology, VNU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>As.Prof. Dr. Nguyen Phuong Thai</b>, <span className={"italic"}>University of Engineering and Technology, VNU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Nguyen Van Vinh</b>, <span className={"italic"}>University of Engineering and Technology, VNU.</span>
-              </p>
-            </li>
-            <li>
-              <p>
-                <b>Dr. Doan Nhat Quang</b>, <span className={"italic"}>University of Science and Technology Hanoi (USTH).</span>
-              </p>
-            </li>
-          </ul>,
+        props.dark,
+        "Program Committee",
+        <ul className={"ml-5 list-disc"}>
+          <li>
+            <b>As. Prof. Dr. Vu Hoang Nam</b>,{" "}
+            <span className={"italic"}>
+              Department of Scientific Management, FTU.
+            </span>
+          </li>
+          <li>
+            <b>Prof. Dr. Tran Minh-Ngoc</b>,{" "}
+            <span className={"italic"}>
+              The University of Sydney Business School, Australia
+            </span>
+          </li>
+          <li>
+            <b>Dr. Nguyen Ngoc Bao</b>,{" "}
+            <span className={"italic"}>Apple Inc, USA.</span>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Nguyen Van Tang</b>,{" "}
+              <span className={"italic"}>
+                Faculty of Technology and Data Science, FTU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>MSc. To Thi Hai Yen</b>,{" "}
+              <span className={"italic"}>
+                Faculty of Technology and Data Science, FTU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Phung Duy Quang</b>,{" "}
+              <span className={"italic"}>
+                Faculty of Technology and Data Science, FTU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Lam Van Son</b>,{" "}
+              <span className={"italic"}>
+                Faculty of Technology and Data Science, FTU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Doan Quang Hung</b>,{" "}
+              <span className={"italic"}>
+                Faculty of Technology and Data Science, FTU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Pham Thi Kim Dung</b>,{" "}
+              <span className={"italic"}>
+                Faculty of Technology and Data Science, FTU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>As.Prof.Dr. Nguyen Thi Thuy Vinh</b>,{" "}
+              <span className={"italic"}>
+                Department of Higher Education, FTU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>As.Prof. Nguyen Truong Thang</b>,{" "}
+              <span className={"italic"}>
+                Institute of Information Technology, VAST.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>As.Prof. Nguyen Viet Anh</b>,{" "}
+              <span className={"italic"}>
+                Institute of Information Technology, VAST.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Ngo Hai Anh</b>,{" "}
+              <span className={"italic"}>
+                Institute of Information Technology, VAST.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Nguyen Nhu Son</b>,{" "}
+              <span className={"italic"}>
+                Institute of Information Technology, VAST.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>As.Prof. Dr. Phan Xuan Hieu</b>,
+              <span className={"italic"}>
+                {" "}
+                University of Engineering and Technology, VNU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>As.Prof. Dr. Nguyen Phuong Thai</b>,{" "}
+              <span className={"italic"}>
+                University of Engineering and Technology, VNU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Nguyen Van Vinh</b>,{" "}
+              <span className={"italic"}>
+                University of Engineering and Technology, VNU.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Dr. Doan Nhat Quang</b>,{" "}
+              <span className={"italic"}>
+                University of Science and Technology Hanoi (USTH).
+              </span>
+            </p>
+          </li>
+        </ul>,
       )}
       {peopleCard(
         props.dark,
         "Organizing chair",
         <ul className={"ml-5 list-disc"}>
           <li>
-            <p>
-              Falculty of Technology and Data Science
-            </p>
+            <p>Falculty of Technology and Data Science</p>
           </li>
         </ul>,
       )}
@@ -155,12 +229,18 @@ const CommitteesCard = (props: IBodyCardProp) => {
         "Technical and Design Support",
         <ul className={"ml-5 list-disc"}>
           <li>
-            <b>Bsc. Dung Nguyen Duy Chi</b>, {" "}
-            <span className={"italic"}> Faculty of Technology and Data Science, FTU</span>
+            <b>Bsc. Dung Nguyen Duy Chi</b>,{" "}
+            <span className={"italic"}>
+              {" "}
+              Faculty of Technology and Data Science, FTU
+            </span>
           </li>
           <li>
-            <b>Ms. Cuc Nguyen Thi Thu</b>, {" "}
-            <span className={"italic"}> Faculty of Technology and Data Science, FTU</span>
+            <b>Ms. Cuc Nguyen Thi Thu</b>,{" "}
+            <span className={"italic"}>
+              {" "}
+              Faculty of Technology and Data Science, FTU
+            </span>
           </li>
         </ul>,
       )}

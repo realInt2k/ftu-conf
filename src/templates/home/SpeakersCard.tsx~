@@ -52,7 +52,7 @@ const SpeakersCard = (props: IBodyCardProp) => {
                 </p>
             </div>
             <div className={'flex flex-col items-center'}>
-                <img style={{height: imgHeight}} src={'/assets/images/mr-david-cropped.jpg'} alt={'mr.David'}/>
+                <img style={{height: imgHeight}} src={'/assets/images/nguyen-canh-binh.jpg'} alt={'mr.David'}/>
                 <p className={'pt-5 font-bold'}>
                     Mr. Nguyễn Cảnh Bình
                 </p>

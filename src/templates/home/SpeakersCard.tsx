@@ -9,7 +9,7 @@ const SpeakersCard = (props: IBodyCardProp) => {
             dark={props.dark}
             passThroughChild={true}
             title={"Keynote / Guest Speaker"}
-            description={'updating...'}
+            description={''}
         >
         <div className={'pt-5 md:grid md:grid-cols-3 md:gap-4'}>
             <div className={'flex flex-col items-center'}>
@@ -22,15 +22,6 @@ const SpeakersCard = (props: IBodyCardProp) => {
                 </p>
                 <p>
                     Sydney Business School.
-                </p>
-            </div>
-            <div className={'flex flex-col items-center'}>
-                <img style={{height: imgHeight}} src={'/assets/images/FE-LE-ANH-NGO-C-1740714900_320x320.png'} alt={'Dr. Le Anh Ngoc'}/>
-                <p className={'pt-5 font-bold'}>
-                    Dr. Lê Anh Ngọc
-                </p>
-                <p className={''}>
-                    Swinburne University of Technology Vietnam.
                 </p>
             </div>
             <div className={'flex flex-col items-center'}>

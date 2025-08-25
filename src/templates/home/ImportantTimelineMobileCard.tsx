@@ -21,7 +21,7 @@ const ImportantTimelineMobileCard = () => {
                         <TimelineItem middle={true} date={'20/07/2025'} description={t('DescriptionHome.TimeLine.2')}/>
                         <TimelineItem middle={true} date={'30/07/2025'} description={t('DescriptionHome.TimeLine.3')}/>
                         <TimelineItem middle={true} date={'12/08/2025'} description={t('DescriptionHome.TimeLine.4')}/>
-                        <TimelineItem end={true} date={'20/08/2025'} description={t('DescriptionHome.TimeLine.5')}/>
+                        <TimelineItem end={true} date={'19/09/2025'} description={t('DescriptionHome.TimeLine.5')}/>
                     </ul>
                 </div>
             </Section>

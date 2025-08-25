@@ -56,7 +56,7 @@ const HeadCardContentMiddle = () => {
           </p>
           <p className={"text-lg font-normal"}>12/08/2025</p>
           <p className={"pt-2 text-lg font-bold"}>Conference day</p>
-          <p className={"text-lg font-normal"}>20/08/2025</p>
+          <p className={"text-lg font-normal"}>19/09/2025</p>
         </div>
       </div>
     </div>

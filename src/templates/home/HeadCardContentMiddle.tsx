@@ -10,13 +10,13 @@ const HeadCardContentMiddle = () => {
           style={{ borderTop: "double white 4px" }}
           className="text-3xl font-extralight uppercase xl:text-5xl"
         >
-          August 20, 2025
+          September 19th, 2025
         </p>
         <div
           style={{ borderBottom: "double white 4px" }}
           className="pb-5 text-xl font-bold uppercase xl:text-3xl"
         >
-          National Conference <br /> on Applied Mathematics, <br /> Computer
+          Conference <br /> on Applied Mathematics, <br /> Computer
           Science, Data analytics
           <br />
           <p

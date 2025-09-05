@@ -51,6 +51,15 @@ const SpeakersCard = (props: IBodyCardProp) => {
                     Chairman of the Board of Directors of Alpha Book
                 </p>
             </div>
+            <div className={'flex flex-col items-center'}>
+                <img style={{height: imgHeight}} src={'/assets/images/Nguyen Huu Hieu.jpg'} alt={'mr.David'}/>
+                <p className={'pt-5 font-bold'}>
+                    Mr. Nguyen Huu Hieu
+                </p>
+                <p className={''}>
+                    MBA Co-founder/CEO of FiinGroup.
+                </p>
+            </div>
         </div>
         </SectionFullWidth>
     )
